@@ -35,7 +35,7 @@ gradle
 	
 	
 	dependencies {
-    	    compile 'com.github.cuishijie1991:PDFViewer:1.0'
+        compile 'com.github.cuishijie1991:AndroidPDFViewer:1.0'
     }
 ```
 
