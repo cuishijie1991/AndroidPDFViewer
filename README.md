@@ -17,8 +17,8 @@
 - 如果是专业pdf阅读app，或者pdf阅读场景多，建议选择pdf原生解析库或者sdk，支持更好，功能更全。
 - 如果pdf场景比较少，引入一个3M多的库很不合适。建议Server端进行处理或者用本地js解析的方案。
 
-这个库，就是一个js解析的方案。参考了[PDFWebSite](https://github.com/qiujayen/PDFWebSite)这个库，在其基础
-上进行了修复和封装。支持手机本地存储，assert和server端pdf的解析读取。
+这个库，就是一个js解析的方案。参考了[PDFWebSite](https://github.com/qiujayen/PDFWebSite)这个库，在其基础上进行了修复和封装。支持手机本地存储，assert和server端pdf的解析读取。
+读取server端pdf时，如果pdf server端设置不支持跨域，无法直接解析，会启动线程下载到本地，通过打开本地pdf方式加载。
 
 
 ## 使用
