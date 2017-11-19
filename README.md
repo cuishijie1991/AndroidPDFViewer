@@ -22,6 +22,23 @@
 
 
 ## 使用
+
+gradle
+
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+	
+	dependencies {
+    	    compile 'com.github.cuishijie1991:PDFViewer:1.0'
+    }
+```
+
 onCreate
 ```
  pdfViewer = new PdfViewer(webView);
